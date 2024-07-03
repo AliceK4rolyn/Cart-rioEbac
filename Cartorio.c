@@ -125,6 +125,7 @@ int main(){
     	printf("\t1- Registrar nomes\n");
     	printf("\t2- Consultar nomes\n");
     	printf("\t3- Deletar nomes\n\n");
+	printf("\t4- Sair do sistema\n\n");
     	printf("\t~~~~~~~~~~~~~~~~~~~~~~~~\n");
     	
         printf("\tOpcao: ");
@@ -145,7 +146,13 @@ int main(){
 		
 			case 3:
 			deletar(); // Chamando função de deletar dados de um usuário
+			return 0;
 			break;
+
+			case 4:
+			printf("Obrigado por utilizar o nosso sistema"); // Chamando função de deletar dados de um usuário
+			break;
+
 
             
             default: // Não foi inserida uma opção válida
